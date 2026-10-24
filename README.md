@@ -1,7 +1,7 @@
 # Deep Learning
 
-This repository documents my learning journey in Deep Learning through hands-on Python exercises, algorithm implementations, and visualizations.
+This repository is a collection of my notes, experiments, and hands-on exercises as I explore Machine Learning and Deep Learning. It focuses on understanding the underlying concepts through implementation, rather than relying solely on theory.
 
-It covers concepts I'm exploring, from the fundamentals of machine learning to more advanced deep learning techniques, with a focus on understanding how algorithms work through practical experimentation.
+From implementing fundamental algorithms to visualizing how they learn and make predictions, each notebook captures a concept I'm working through and the practical insights gained along the way.
 
-The repository is a collection of personal exercises and implementations that I'll continue updating as I learn.
+I'll be expanding this repository as I explore new algorithms, techniques, and applications, building on the fundamentals one step at a time.
