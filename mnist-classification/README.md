@@ -37,10 +37,10 @@ A hands-on Deep Learning project that uses an Artificial Neural Network (ANN) to
 **Test Accuracy: 97.55%**
 
 ### Training vs Validation Loss
-![Training Loss](training_loss.png)
+![Training Loss](training_loss(2).png)
 
 ### Training vs Validation Accuracy
-![Training Accuracy](training_accuracy.png)
+![Training Accuracy](training_accuracy(2).png)
 
 ## Learning Objective
 To understand how an ANN learns to classify handwritten digits into ten classes, from 0 to 9.
