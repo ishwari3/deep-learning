@@ -24,7 +24,15 @@ A hands-on Deep Learning project that uses an Artificial Neural Network (ANN) to
 - Scikit-learn
 - TensorFlow and Keras
 
+## Training Results
+
+### Model Loss
+![Training Loss](training_loss.png)
+
+### Model Accuracy
+![Training Accuracy](training_accuracy.png)
+
 ## Learning Objective
 To understand how an ANN can learn patterns from customer data and perform binary classification to predict whether a customer is likely to leave the bank.
 
-Part of my personal Deep Learning learning journey.
+
