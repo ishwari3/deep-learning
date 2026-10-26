@@ -3,6 +3,7 @@
 A hands-on Deep Learning project that uses an Artificial Neural Network (ANN) to predict customer churn.
 
 ## What This Notebook Covers
+
 - Loading and exploring the Churn Modelling dataset.
 - Removing irrelevant identifier columns.
 - Encoding categorical features using one-hot encoding.
@@ -13,11 +14,13 @@ A hands-on Deep Learning project that uses an Artificial Neural Network (ANN) to
 - Visualizing training and validation loss and accuracy.
 
 ## Model Architecture
+
 - Input layer: 11 features
 - Hidden layers: Two dense layers with 11 neurons each
 - Output layer: One neuron with sigmoid activation
 
 ## Technologies Used
+
 - Python
 - Pandas and NumPy
 - Matplotlib
