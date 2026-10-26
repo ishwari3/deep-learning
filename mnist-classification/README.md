@@ -32,6 +32,16 @@ A hands-on Deep Learning project that uses an Artificial Neural Network (ANN) to
 - Matplotlib
 - Scikit-learn
 
+## Training Results
+
+**Test Accuracy: 97.55%**
+
+### Training vs Validation Loss
+![Training Loss](training_loss.png)
+
+### Training vs Validation Accuracy
+![Training Accuracy](training_accuracy.png)
+
 ## Learning Objective
 To understand how an ANN learns to classify handwritten digits into ten classes, from 0 to 9.
 
