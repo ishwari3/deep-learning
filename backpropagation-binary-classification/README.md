@@ -1,27 +1,28 @@
-# Backpropagation for Regression
+# Backpropagation for Binary Classification
 
 ## Overview
-Implemented a neural network for regression using manually coded forward propagation and backpropagation to understand how weights and biases are updated during training.
+Implemented a neural network from scratch using NumPy to perform binary classification. The model predicts whether a student gets placed based on their CGPA and profile score.
 
 ## Dataset
-The model uses the following input features to predict the target variable:
+A small sample dataset containing:
 
-- **CGPA**
-- **Profile Score**
-- **Target:** LPA
+- **CGPA** — input feature
+- **Profile Score** — input feature
+- **Placed** — target label (`1` = placed, `0` = not placed)
 
 ## Model Architecture
-- Input layer: 2 neurons
+- Input layer: 2 features
 - Hidden layer: 2 neurons
 - Output layer: 1 neuron
 - Architecture: `[2, 2, 1]`
 
 ## Implementation
-- Implemented forward propagation using NumPy.
-- Calculated parameter updates manually using the prediction error.
-- Updated weights and biases during training.
-- Trained the model over multiple epochs.
-- Tracked mean squared error (MSE) to monitor training loss.
+- Initialized weights and biases manually.
+- Implemented sigmoid activation.
+- Performed forward propagation across the network.
+- Updated weights and biases using manually implemented backpropagation.
+- Used binary cross-entropy loss to evaluate predictions.
+- Trained the network over multiple epochs.
 
 ## Technologies Used
 - Python
@@ -30,12 +31,11 @@ The model uses the following input features to predict the target variable:
 - Jupyter Notebook
 
 ## Learning Outcomes
-- Understood the mechanics of forward propagation.
-- Explored how prediction errors influence weight and bias updates.
-- Practiced implementing neural network training without relying on a deep learning framework.
+- Applied backpropagation to a binary classification problem.
+- Explored sigmoid activation and binary cross-entropy loss.
+- Practiced implementing neural network training without a deep learning framework.
 
 ## Next Steps
-- Refine gradient calculations and parameter updates.
-- Experiment with different learning rates and epoch counts.
-- Visualize training loss across epochs.
-
+- Correct and verify gradient calculations.
+- Track and visualize training loss across epochs.
+- Evaluate predictions on the training samples.
