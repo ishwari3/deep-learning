@@ -113,10 +113,10 @@ I then rebuilt and trained the neural network using `X_train_scaled` and evaluat
 ## Validation Accuracy Comparison
 
 ### Before Feature Scaling
-![Validation accuracy before scaling](images/accuracy-before-scaling.png)
+![Validation accuracy before scaling](accuracy-before-scaling.png)
 
 ### After Standardization
-![Validation accuracy after standardization](images/accuracy-after-scaling.png)
+![Validation accuracy after standardization](accuracy-after-scaling.png)
 
 ## Results and Observations
 
