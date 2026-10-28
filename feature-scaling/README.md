@@ -109,6 +109,15 @@ The scaler learns the mean and standard deviation from the training data. Applyi
 
 I then rebuilt and trained the neural network using `X_train_scaled` and evaluated it using `X_test_scaled`.
 
+
+## Validation Accuracy Comparison
+
+### Before Feature Scaling
+![Validation accuracy before scaling](images/accuracy-before-scaling.png)
+
+### After Standardization
+![Validation accuracy after standardization](images/accuracy-after-scaling.png)
+
 ## Results and Observations
 
 | Observation | Without scaling | With standardization |
